@@ -133,7 +133,7 @@ public class ContactListGUI {
 
 
     public void service_eventListRetrievedFromService(List<Contact> result) {
-        status.setText("Retrieved contact list");
+        status.setText("Retrieved THE contact list STEVE WAS HERE");
         this.contacts = result;
         this.contactGrid.clear();
         this.contactGrid.resizeRows(this.contacts.size());
